@@ -1,0 +1,24 @@
+MarkitupRails
+=============
+
+Markitup[1] plugin for Ruby on Rails.
+
+
+Example
+=======
+
+<head>
+ <%= include_markitup_assets %>
+ <%= include_markitup_assets :sets => :markdown, :skin => :simple
+</head>
+<body>
+
+    <textarea id="markitup" ...>
+    <%= init_markitup_for("#markitup") %>
+
+</body>
+
+
+[1] http://markitup.jaysalvat.com/home/
+
+Copyright (c) 2009 Antono Vasiljev, released under the LGPL license
